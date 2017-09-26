@@ -9,7 +9,7 @@
 	   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	   <link rel="stylesheet" type="text/css" href="css/styles.css">
+	   <link rel="stylesheet" href="css/styles.css">
 	   <title>My Portfolio</title>
   </head>
 
@@ -29,38 +29,49 @@
           <p class="sub_head">FRONT-END NINJA</p>
         </div>
       </div>
+      <div class="col-xs-12"><hr></div>
 	 </header>	
 
-	 <hr>
+	 
   		
 <!-- The body main content-->
       <div class="cover text-muted">
   			<div class="container">
           <div class="row justify-content-between">
-  					<div class="card">
-  						<img src="images/pc3.jpg" alt="responsive" class="rounded">
-  					</div>
+            <div class="col-xs-6 col-md-12">
+              <div class="card">
+                <img src="images/pc3.jpg" alt="responsive" class="rounded"
+                style="width:100%">
+              </div>
+            </div>
   				</div>
   			</div>
   		</div>
+
 <!-- Feature work description and images and links-->
-  		<div class="album text-muted">
-        <div class="container">
-          <div class="section_heading">
-            Featured  Work
-          </div>
-                  
-      <div class="row equal-height section_pics">
-        <div class="col-xs-6 col-md-4">
-          <div class="thumbnail">
-            <img src="images/sentiment-analysis.jpg" alt="sentiment-analysis" class="img-fullsize">
-              <div class="caption">
-                <p class="flex-text">
-                  <h5>Sentiment-Analysis</h5>
-                  <h6> <a href="https://github.com/saritpatnaik/sentiment-analysis"> https://github.com/saritpatnaik/sentiment-analysis</a></h6>
+  		<main> 
+        <div class="album text-muted">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xs-6 col-md-12">
+                <div class="section_heading">
+                  Featured  Work
+                </div>    
               </div>
             </div>
-          </div>
+            
+                  
+            <div class="row equal-height section_pics">
+              <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/sentiment-analysis.jpg" alt="sentiment-analysis" class="img-fullsize">
+                    <div class="caption">
+                      <p class="flex-text">
+                      <h5>Sentiment-Analysis</h5>
+                      <h6> <a href="https://github.com/saritpatnaik/sentiment-analysis"> https://github.com/saritpatnaik/sentiment-analysis</a></h6>
+                    </div>
+                  </div>
+                </div>
 
               <div class="col-xs-6 col-md-4">
                   <div class="thumbnail">
@@ -80,7 +91,7 @@
                       <div class="caption">
                         <p class="flex-text">
                           <h5>My Portfolio</h5>
-                          <h6><a href="https://github.com/saritpatnaik/project-portfolio"> https://github.com/saritpatnaik/project-portfolio</h6>
+                          <h6><a href="https://github.com/saritpatnaik/project-portfolio"> https://github.com/saritpatnaik/project-portfolio  </a> </h6>
                         
                       </div>
                   </div>
@@ -88,6 +99,8 @@
               </div>
             </div>
         </div>
+      
+      </main>
       
   		<!--About me part -->
       <div class="container bg-dark">
@@ -109,8 +122,15 @@
       </div>
     
             <!-- Footer part-->
-     <footer class="text-center">
-      <p class="footer_text">&reg; all right reserved to Sarit Patnaik</p>
-    </footer>
-  </body>
+            <div class="container">
+                <div class="row justify-content-between">
+                  <div class="col-xs-6 col-md-12">
+                    <footer class="text-center">
+                      <p class="footer_text">&reg; all right reserved to Sarit Patnaik</p>
+                      </footer>              
+                  </div>
+                </div>
+            </div>
+     
+     </body>
 </html>
